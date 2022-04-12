@@ -380,6 +380,11 @@ section {
   font-style: normal;
   color: var(--secondary-color);
 }
+
+.contact-form label {
+  color: var(--secondary-color);
+}
+
 .contact-form input,
 .contact-form textarea {
   border: 1px solid var(--secondary-color);
