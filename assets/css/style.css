@@ -344,6 +344,15 @@ section {
 /* REACH OUT STYLES START */
 .contact {
   background: var(--tertiary-color);
+  background-image: url("../images/footer-background2.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 30%;
 }
 .contact h2 {
   color: var(--primary-color);
