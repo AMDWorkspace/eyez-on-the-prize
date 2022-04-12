@@ -1,6 +1,6 @@
 :root {
-  --primary-color: white;
-  --secondary-color: #024e76;
+  --primary-color: black;
+  --secondary-color: #fcfc08;
   --tertiary-color: #520104;
 }
 * {
@@ -126,7 +126,7 @@ section {
 }
 .hero-form {
   border: 3px solid var(--secondary-color);
-  background-color: rgba(252, 225, 56, 0.8);
+  background-color: rgba(82, 1, 4, 0.8);
   padding: 20px;
   color: var(--secondary-color);
   width: 40%;
@@ -243,7 +243,7 @@ section {
 
 .section-title {
   front-size: 48px;
-  color: var(--secondary-color);
+  color: var(--primary-color);
   border-bottom: 3px solid;
   padding-bottom: 20px;
   text-align: center;
@@ -343,7 +343,7 @@ section {
 }
 /* REACH OUT STYLES START */
 .contact {
-  background: var(--secondary-color);
+  background: var(--tertiary-color);
 }
 .contact h2 {
   color: var(--primary-color);
@@ -374,10 +374,11 @@ section {
   line-height: 1.5;
   font-size: 16px;
   font-style: normal;
+  color: var(--secondary-color);
 }
 .contact-form input,
 .contact-form textarea {
-  border: 1px solid var(--secondary-color);
+  border: 1px solid var(--tertiary-color);
   display: block;
   padding: 7px 15px;
   font-size: 16px;
