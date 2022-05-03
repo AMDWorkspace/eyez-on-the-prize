@@ -293,7 +293,7 @@ section {
   flex: 12;
 }
 .step-text p {
-  color: var(--tertiary-color);
+  color: var(--secondary-color);
   font-size: 18px;
 }
 .step-text h4 {
